@@ -134,8 +134,10 @@ display: flex;
 flex-flow:column wrap;
 justify-content: space-evenly;
 align-items: center;
-  padding: 20px;
+padding: 20px;
 }
+
+
 section.image {
 
   display: flex;
