@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+header h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  background: #f7ded5;
+}
+
+header h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+}
+
+.navbar {
+  margin-top: 50px;
+  display: flex;
+  background: white;
+  border-top: 2px solid #7e799c;
+  border-bottom: 2px solid #7e799c;
+
+}
+
+.navbar a{
+  font-size: 30px;
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  flex: 1;
+}
+
+.navbar a:hover{
+  background-color: #f7ded5;
+}
+
+section.main  {
+  margin: auto;
+
+  padding: 50px;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+section.video {
+width: 100%;
+display: flex;
+flex-flow:column wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+h3{
+  margin: 30px;
+  font-size: 30px;
+}
+
+.video p{
+
+  font-size: 20px;
+}
+
+.main figure{
+  background: url(../assets/images/earrings.jpg)no-repeat center center;
+}
